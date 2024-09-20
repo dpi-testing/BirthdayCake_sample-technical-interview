@@ -48,7 +48,7 @@ class BirthdayCake
   def to_s
     "Birthday cake with #{self.age} #{candles_status} candles"
   end
-
+#
   def BirthdayCake.celebrate(age)
     birthday_cake = Birthdaycake.new(age)
     puts birthday_cake.greet
